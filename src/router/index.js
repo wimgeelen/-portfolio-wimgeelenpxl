@@ -10,7 +10,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('/-portfolio-wimgeelenpxl/'),
   routes,
   scrollBehavior() {
     return { top: 0 }

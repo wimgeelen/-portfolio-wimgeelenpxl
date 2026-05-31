@@ -35,17 +35,15 @@ portfolio-wim/
     │   ├── NavBar.vue          # Navigatie bovenaan
     │   └── FooterBar.vue       # Footer onderaan
     └── views/
-        ├── Home.vue            ← ✏️ Jouw hero + intro aanpassen
-        ├── Over.vue            ← ✏️ Bio en tijdlijn aanpassen
-        ├── Projecten.vue       ← ✏️ Jouw projecten toevoegen
-        └── WerkplekLeren.vue   ← ✏️ Rollenlijst, logboek, opdrachten, AIM
+        ├── Home.vue            
+        ├── Over.vue
+        └── WerkplekLeren.vue   
 ```
 
 ---
 
 ## Aanpassen
 
-Zoek overal naar het commentaar **`✏️`** — dat zijn de plekken waar je jouw eigen info invult.
 
 ### Home.vue
 - `info.intro` — je introductietekst
@@ -57,8 +55,6 @@ Zoek overal naar het commentaar **`✏️`** — dat zijn de plekken waar je jou
 - Bio alinea's (middelste sectie)
 - `timeline` — jouw tijdlijn
 
-### Projecten.vue
-- `projecten` array — titel, beschrijving, tech-stack, GitHub/live links
 
 ### WerkplekLeren.vue
 - `rollenlijst` — jouw rollen
